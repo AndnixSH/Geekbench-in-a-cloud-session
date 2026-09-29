@@ -4,6 +4,21 @@ Runs the [Geekbench](https://www.geekbench.com/) CPU benchmark inside a
 Claude Code cloud session (or any Linux box) and prints the Geekbench Browser
 links for the result.
 
+## Result
+
+[Geekbench 7.1.0 CPU result](https://browser.geekbench.com/v7/cpu/492095),
+run in a Claude Code cloud session on 2026-09-28:
+
+| Single-Core | Multi-Core |
+|-------------|------------|
+| 990         | 3117       |
+
+- CPU: Intel Xeon @ 2.80 GHz (Cascade Lake, AVX-512), 4 cores, KVM guest
+- Memory: 15.7 GB
+- OS: Ubuntu 24.04.4 LTS, Linux 6.18
+
+## Usage
+
 ```sh
 ./run-geekbench.sh
 ```
